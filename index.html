@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="  logo" src="img/Logo.svg" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="seccion_uno">
+            <textarea class="caja_texto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedor_parrafo_btn">
+                <p class="informacion"> <img src="img/exclamacion.svg" alt="Icono de advertencia">Solo letras minúsculas
+                    y
+                    sin acentos</p>
+                <div class="botones">
+                    <button id="boton_encriptador" class=" bounce-in-left boton_encriptador">Encriptar</button>
+                    <button id="boton_desencriptar" class=" bounce-in-right boton_desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class=" roll-in-top seccion_dos">
+            <div class="presentacion">
+                <img class="muneco" src="img/muneco.svg" alt="muñeco">
+                <p class="bold">Ningún mensaje fue encontrado</p>
+                <p class="small">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="resultado">
+                <textarea id="mensaje" class="mensaje" readonly></textarea>
+                <button id="boton_copiar" class="boton_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class=" bounce-in-top creditos">
+        <p class="texto_creditos">Encriptador Desarrollado por Andres Urango Jr</h6>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Moisesdemolf/lumina-alerts/lumina-alerts.js"></script>
+</body>
+
+</html>
