@@ -194,6 +194,7 @@ textarea {
 /* btn desencriptar */
 
 .boton_desencriptar {
+    cursor: pointer;
     height: 67px;
     width: 90%;
     letter-spacing: 2px;
@@ -496,5 +497,9 @@ textarea {
     .botones {
         flex-direction: column;
         align-items: center;
+    }
+
+    .texto_creditos {
+        font-size: 12px;
     }
 }
